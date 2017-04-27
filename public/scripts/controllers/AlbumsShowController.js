@@ -6,7 +6,6 @@ AlbumsShowController.$inject = ['$http', '$routeParams'];
 
 function AlbumsShowController ($http, $routeParams) {
   var vm = this;
-  vm.newSong = {};
 
   $http({
     method: 'GET',
